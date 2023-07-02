@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@100&family=Tilt+Prism&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+}
+.navbar{
+    display: flex;
+    height: 77px;
+    font-family: 'Lato', sans-serif;
+}
+
+.text-head{
+    font-family: 'Aleo', serif;
+}
+.navbar li{
+    list-style: none;
+    margin: 0px 12px;
+}
+.topleft{
+    width: 50%;
+    height: 50vh;
+}
+.topright{
+    width: 50%;
+    height: 70vh;
+}
+
+.section1{
+    margin-top: 20px;
+
+}
+
+.section1 h1{
+    font-size: 30px;
+}
+
+.section2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 63px;
+    padding-right: 63px;
+}
+.section2 h1{
+    font-size: 2.2rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.boxes{
+    margin-top: 20px;
+}
+
+.box{
+    padding: 2px;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box h2{
+    padding: 15px;
+
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+    padding: 5px;
+}
+
+.section3{
+    padding-bottom: 45px;
+}
+
+.section3 h1{
+    font-size: 2.2rem;
+}
+
+.table-style{
+    width: 100%;
+    display: table;
+    border-spacing: 0;
+    padding: 12px 20px 12px 20px;
+}
+
+.table-head tr th{
+    max-width: 35%;
+    width: 35%;
+    padding: 20px 20px 20px 20px;
+    border: 2px solid brown;
+    border-radius: 6px;
+    font-size: 1.5rem;
+}
+
+
+.table-body tr td{
+    margin: 2px 2px 2px 2px;
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+    border: 2px solid rgb(90, 70, 70);
+    font-size: 1.2rem;
+}
+
+.tick{
+    text-align: center;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+}
